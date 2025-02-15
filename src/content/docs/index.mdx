@@ -1,36 +1,33 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Desarrollo Rutas Audioguías
+description: Documentación del proyecto de rutas turísticas interactivas con audioguías.
 template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Descubre cómo implementar rutas turísticas interactivas con audioguías
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Introduccion
+      link: /backend/ruta-checkpoint/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
-      variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
+	<Card title="Ruta-Chekpoint" icon="null">
+		Gestiona rutas turísticas y los puntos de control asociados (checkpoints).
 	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
+	<Card title="Audioguías" icon="null">
+		Gestiona la creación, edición, eliminación y consulta de audioguías asociadas a checkpoints, 
+		almacenando datos como título, URL de la audioguía e ID del checkpoint correspondiente.
 	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
+	<Card title="Comentarios" icon="null">
+		Gestiona la creación, edición, eliminación de comentarios asociados a usuarios, almacenando datos como descripción y fecha de creación.
 	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
+	<Card title="Front" icon="null">
+		diseñado para ser rápido y eficiente. Utiliza componentes reutilizables, 
+		optimización de rendimiento y una estructura modular para facilitar el mantenimiento y escalabilidad.
 	</Card>
 </CardGrid>

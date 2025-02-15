@@ -6,21 +6,22 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'SoundWaysDoc',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/Tourist-Routes-Project',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Backend',
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'RutaCheckpoint', slug: 'backend/ruta-checkpoint' },
+						{ label: 'Audioguias', slug: 'backend/audioguia' },
+						{ label: 'Comentarios', slug: 'backend/comentarios' },
 					],
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: 'Frontend',
+					autogenerate: { directory: 'frontend' },
 				},
 			],
 		}),
