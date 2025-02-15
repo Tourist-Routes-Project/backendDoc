@@ -6,7 +6,7 @@ description: Gestiona la creación, edición, eliminación de comentarios asocia
 
 ## Introducción
 
-Este controlador permite gestionar los comentarios asociados a rutas. Proporciona funcionalidades para obtener, agregar, actualizar y eliminar comentarios.
+Este microservicio gestiona la creación, edición, eliminación de comentarios asociados a usuarios, almacenando datos como descripción y fecha de creación.
 
 ## Endpoints
 

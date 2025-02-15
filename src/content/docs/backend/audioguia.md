@@ -6,8 +6,7 @@ description: Gestiona la creación, edición, eliminación y consulta de audiogu
 
 ## Introducción
 
-Este controlador permite gestionar las audioguías asociadas a puntos de control. Proporciona funcionalidades para obtener, crear, editar y eliminar audioguías.
-
+Este microservicio gestiona la creación, edición, eliminación y consulta de audioguías asociadas a checkpoints, almacenando datos como título, URL de la audioguía e ID del checkpoint correspondiente.
 ## Endpoints
 
 ### 1. Obtener Todas las Audioguías
