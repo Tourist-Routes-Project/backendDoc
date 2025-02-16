@@ -4,8 +4,6 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://tourist-routes-project.github.io/backendDoc/",
-  base: "/backendDoc/",
   integrations: [
     starlight({
       title: "SoundWaysDoc",
