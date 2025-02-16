@@ -1,0 +1,33 @@
+---
+title: Desarrollo Rutas Audioguías
+description: Documentación del proyecto de rutas turísticas interactivas con audioguías.
+template: splash
+hero:
+  tagline: Descubre cómo implementar rutas turísticas interactivas con audioguías
+  image:
+    file: ../../assets/houston.webp
+  actions:
+    - text: Introduccion
+      link: /backend/ruta-checkpoint/
+      icon: right-arrow
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+
+<CardGrid stagger>
+	<Card title="Ruta-Chekpoint" icon="null">
+		Gestiona rutas turísticas y los puntos de control asociados (checkpoints).
+	</Card>
+	<Card title="Audioguías" icon="null">
+		Gestiona la creación, edición, eliminación y consulta de audioguías asociadas a checkpoints, 
+		almacenando datos como título, URL de la audioguía e ID del checkpoint correspondiente.
+	</Card>
+	<Card title="Comentarios" icon="null">
+		Gestiona la creación, edición, eliminación de comentarios asociados a usuarios, almacenando datos como descripción y fecha de creación.
+	</Card>
+	<Card title="Front" icon="null">
+		diseñado para ser rápido y eficiente. Utiliza componentes reutilizables, 
+		optimización de rendimiento y una estructura modular para facilitar el mantenimiento y escalabilidad.
+	</Card>
+</CardGrid>
